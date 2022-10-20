@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te lo Resumo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="img/isotipo.png" alt="Isotipo" id="logo">
+        <h4>Proyecto "Te Lo Resumo"</h4>
+        <h1>ColegioTomásAlvaEdison</h1>
+        <img src="img/user.png" alt="Login" id="login">
+    </header>
+
+    <section> <!-- Cuerpo de la página -->
+
+        <!-- Seccion de las noticias -->
+        <div id="noticias">
+            <div id="noticiaDestacada">
+                <img src="img/edison.jpeg" alt="Noticia destacada" id="noticiaDestacadaImg">
+                <h2>Inscribite en la maratón por los 30 años!</h2>
+            </div>
+            
+            <section id="otrasNoticias">
+                <div id="noticiaMenor">
+                    <img src="img/edison.jpeg" alt="" id="imagenesMenores">
+                    <h3>Manda tu certificado de deporte</h3>
+                </div>
+
+                <div id="noticiaMenor">
+                    <img src="img/edison.jpeg" alt="" id="imagenesMenores">
+                    <h3>Paro el dia 16/10</h3>
+                </div>
+
+                <div id="noticiaMenor">
+                    <img src="img/edison.jpeg" alt="" id="imagenesMenores">
+                    <h3>Actividades por la semana del estudiante</h3>
+                </div>
+            </section>
+            
+
+        </div>
+        
+        <!-- Seccion con los links de los cursos -->
+        <div id="cursos">
+            <div id="listaCursos">
+                <p class="cursoGeneral" onclick="primeros()">▼ 1er año</p>
+                    <div class="cursoDesplegable" id="primeros">
+                        <p class="curso">1ro 1ra</p>
+                        <p class="curso">1ro 2da</p>
+                        <p class="curso">1ro 3ra</p>
+                        <p class="curso">1ro 4ta</p>
+                        <p class="curso">1ro 5ta</p>
+                        <p class="curso">1ro 6ta</p>
+                    </div>
+                <p class="cursoGeneral" onclick="segundos()">▼ 2do año</p>
+                    <div class="cursoDesplegable" id="segundos">
+                        <p class="curso">2do 1ra</p>
+                        <p class="curso">2do 2da</p>
+                        <p class="curso">2do 3ra</p>
+                        <p class="curso">2do 4ta</p>
+                    </div>
+                <p class="cursoGeneral" onclick="terceros()">▼ 3er año</p>
+                    <div class="cursoDesplegable" id="terceros">
+                        <p class="curso">3ro 1ra</p>
+                        <p class="curso">3ro 2da</p>
+                        <p class="curso">3ro 3ra</p>
+                        <p class="curso">3ro 4ta</p>
+                    </div>
+                <p class="cursoGeneral" onclick="cuartos()">▼ 4to año</p>
+                    <div class="cursoDesplegable" id="cuartos">
+                        <p class="curso">4to 1ra</p>
+                        <p class="curso">4to 2da</p>
+                        <p class="curso">4to 3ra</p>
+                    </div>
+                <p class="cursoGeneral" onclick="quintos()">▼ 5to año</p>
+                    <div class="cursoDesplegable" id="quintos">
+                        <p class="curso">5to 1ra</p>
+                        <p class="curso">5to 2da</p>
+                        <p class="curso">5to 3ra</p>
+                    </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <footer>
+        <p>Proyecto escolar <img src="img/logotipo.png" id="imgPie"></p>
+        <p>Donoso - Omelanczuk - Agraín</p>
+    </footer>
+</body>
+</html>
+
