@@ -2,7 +2,6 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: white;
 }
 
 header{
@@ -15,6 +14,7 @@ header{
 
 footer{
     padding: 15px;
+    margin-top: 15px;
     background-color: rgb(0, 207, 207);
     height: 70px;
     text-align: center;
@@ -65,7 +65,7 @@ p{
 }
 
 section{
-    height: 600px;
+    height: min-content;
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -79,24 +79,25 @@ div{
 
 #noticias{
     width: 70%;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
+    height: min-content;
     padding: 0px;
+    margin-top: 15px;
 }
 
 #noticiaDestacada{
-    width: 100%;
-    height: 65%;
-    background-color: white;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: min-content;
     padding: 0px;
 }
 
 #noticiaDestacadaImg{
     margin-top: 15px;
-    width: 80%;
-    height: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
+    height: 40vh;
+    margin-left: 0%;
+    margin-right: 0%;
     object-fit: cover;
 }
 
@@ -105,7 +106,6 @@ h2{
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    margin-left: 10%;
 }
 
 #otrasNoticias{
@@ -123,7 +123,7 @@ h2{
 
 #imagenesMenores{
     width: 90%;
-    height: 60%;
+    height: 25vh;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
@@ -211,16 +211,17 @@ a{
 
 #cuerpoNoticia{
     width: 80%;
-    height: 100vh;
     display: block;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 12vh;
+    margin-top: 10vh;
+    height: min-content;
 }
 
 #divTitulo{
     width: 100%;
-    height: 15vh;
+    height: min-content;
+    margin-bottom: 5vh;
 }
 
 .tituloNoticia{
@@ -241,10 +242,11 @@ a{
 #divImagen{
     width: 100%;
     height: 60%;
+    margin-bottom: 35px;
 }
 
 .imgNoticiaPrincipal{
-    height: 90%;
+    height: 50vh;
     width: 60%;
     margin-right: auto;
     object-fit: cover;
@@ -259,9 +261,8 @@ a{
 
 #divTexto{
     width: 60%;
-    height: 100%;
     font-family: Libre Franklin,sans-serif;
-    background-color: aqua;
+    display: inline-block;
 }
 
 .parrafoNoticia{
@@ -270,12 +271,6 @@ a{
     text-align: left;
     letter-spacing: normal;
     line-height: 1.7;
-}
-
-.parrafoNoticiaCorto{
-    font-size: 18px;
-    margin-bottom: 15px;
-    text-align: left;
-    letter-spacing: normal;
-    line-height: 1.7;
+    color: black;
+    font-family: Libre Franklin,sans-serif;
 }
