@@ -3,11 +3,11 @@
 
   // Desplegar cada curso
 function cursos(curso) {
-  var x = document.getElementById(curso);
-    if (x.style.display == "none") {
-      x.style.display = "block";
+  var desplegable = document.getElementById(curso);
+    if (desplegable.style.display == "none") {
+      desplegable.style.display = "block";
     } else {
-      x.style.display = "none";
+      desplegable.style.display = "none";
     }
 }
 

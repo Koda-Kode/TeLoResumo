@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te lo Resumo | 4to 1ra</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo">
+            <img src="img/isotipo.png" alt="Isotipo" id="logo">
+        </a>
+        <h4>Proyecto "Te Lo Resumo"</h4>
+        <h1>ColegioTomásAlvaEdison</h1>
+        <img src="img/user.png" alt="Login" id="login">
+    </header>
+
+    <!-- Cuerpo de la página -->
+    <section>
+
+        <!-- Seccion de las noticias -->
+        <div id="noticias">
+            <div id="noticiaDestacada">
+                <a href="maraton.html">
+                    <img src="img/maraton.png" alt="Noticia destacada" id="noticiaDestacadaImg">
+                    <h2>Bueno aca va la pagina de los cursos</h2>
+                    <p class="parrafoNoticia">Tenemos el agrado de compartir con todos Uds. un nuevo evento que nos permite celebrar los 30 años del Colegio! </p>
+                </a>
+            </div>
+
+            
+            
+
+        </div>
+        
+        <!-- Seccion con los links de los cursos -->
+        <div id="cursos">
+            <div id="listaCursos">
+                <p class="cursoGeneral" onclick="cursos('primeros')">▼ 1er año</p>
+                    <div class="cursoDesplegable" id="primeros">
+                        <a href=""><p class="curso">1ro 1ra</p></a>
+                        <a href=""><p class="curso">1ro 2da</p></a>
+                        <a href=""><p class="curso">1ro 3ra</p></a>
+                        <a href=""><p class="curso">1ro 4ta</p></a>
+                        <a href=""><p class="curso">1ro 5ta</p></a>
+                        <a href=""><p class="curso">1ro 6ta</p></a>
+                    </div>
+                <p class="cursoGeneral" onclick="cursos('segundos')">▼ 2do año</p>
+                    <div class="cursoDesplegable" id="segundos">
+                        <a href=""><p class="curso">2do 1ra</p></a>
+                        <a href=""><p class="curso">2do 2da</p></a>
+                        <a href=""><p class="curso">2do 3ra</p></a>
+                        <a href=""><p class="curso">2do 4ta</p></a>
+                    </div>
+                <p class="cursoGeneral" onclick="cursos('terceros')">▼ 3er año</p>
+                    <div class="cursoDesplegable" id="terceros">
+                        <a href=""><p class="curso">3ro 1ra</p></a>
+                        <a href=""><p class="curso">3ro 2da</p></a>
+                        <a href=""><p class="curso">3ro 3ra</p></a>
+                        <a href=""><p class="curso">3ro 4ta</p></a>
+                    </div>
+                <p class="cursoGeneral" onclick="cursos('cuartos')">▼ 4to año</p>
+                    <div class="cursoDesplegable" id="cuartos">
+                        <a href=""><p class="curso">4to 1ra</p></a>
+                        <a href=""><p class="curso">4to 2da</p></a>
+                        <a href=""><p class="curso">4to 3ra</p></a>
+                    </div>
+                <p class="cursoGeneral" onclick="cursos('quintos')">▼ 5to año</p>
+                    <div class="cursoDesplegable" id="quintos">
+                        <a href=""><p class="curso">5to 1ra</p></a>
+                        <a href=""><p class="curso">5to 2da</p></a>
+                        <a href=""><p class="curso">5to 3ra</p></a>
+                    </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <footer>
+        <p>Proyecto escolar <img src="img/logotipo.png" id="imgPie"></p>
+        <p>Por:</p>
+        <p>Donoso - Omelanczuk - Agraín</p>
+    </footer>
+</body>
+</html>
+
