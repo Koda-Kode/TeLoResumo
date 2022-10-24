@@ -274,3 +274,50 @@ a{
     color: black;
     font-family: Libre Franklin,sans-serif;
 }
+
+/* Estilo de los cursos */
+
+
+#anuncios{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5vh;
+    height: min-content;
+    padding: 0px;
+}
+
+.anuncio{
+    margin-top: 5vh;
+}
+
+.usuario{
+    height: 12vh;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+#imgPerfil{
+    height: 10vh;
+    margin:6px;
+    display: inline-block;
+}
+
+.nombrePerfil{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 12vh;
+    text-align: left;
+}
+
+#tituloAnuncio{
+    margin-top: 0px;
+}
+
+.imgAnuncio{
+    height: 50vh;
+    width: 100%;
+    margin-right: auto;
+    object-fit: cover;
+}
