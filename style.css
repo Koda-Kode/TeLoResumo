@@ -32,6 +32,19 @@ footer{
     margin-left: 2%;
 }
 
+#menu{
+    display: none;
+    height: 70%;
+    margin: auto;
+    margin-right: 5vh;
+    float: right;
+}
+
+#flecha{
+    display: none;
+    height: 60px;
+}
+
 h4{
     text-align: left;
     font-size: 20px;
@@ -320,4 +333,55 @@ a{
     width: 100%;
     margin-right: auto;
     object-fit: cover;
+}
+
+
+@media only screen and (max-width: 800px){
+
+#cursos{
+    position: absolute;
+    width: 100%;
+    display: none;
+    height: min-content;
+}
+
+h1{
+    display: none;
+}
+
+#login{
+    display: none;
+}
+
+#menu{
+    display: flex;
+}
+
+h4{
+    display: none;
+}
+
+#noticias{
+    width: 100%;
+}
+
+.imgNoticiaPrincipal{
+    width: 100%;
+}
+
+#divTexto{
+    width: 100%;
+}
+
+#flecha{
+    display: flex;
+}
+
+#volver{
+    display: flex;
+    margin: auto;
+    margin-right: 5vh;
+    height: min-content;
+}
+
 }
