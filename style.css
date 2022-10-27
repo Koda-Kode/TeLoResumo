@@ -30,6 +30,11 @@ footer{
     height: 85%;
     margin:6px;
     margin-left: 2%;
+    display: inline-flex;
+}
+
+#volver{
+    display: none;
 }
 
 #menu{
@@ -378,10 +383,8 @@ h4{
 }
 
 #volver{
-    display: flex;
-    margin: auto;
-    margin-right: 5vh;
-    height: min-content;
+    display: inline-flex;
+    line-height: 60px;
 }
 
 #otrasNoticias{
