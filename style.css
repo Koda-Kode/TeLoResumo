@@ -128,12 +128,17 @@ h2{
 
 #otrasNoticias{
     width: 100%;
-    height: 35%;
+    height: min-content;
     background-color: white;
+    margin-top: 8vh;
+}
+
+.vinculoNoticia{
+    width: 33%;
 }
 
 #noticiaMenor{
-    width: 33%;
+    width: 100%;
     height: 100%;
     background-color: white;
     margin: auto;
@@ -163,6 +168,7 @@ h3{
     width: 30%;
     height: 100%;
     background-color: white;
+    margin-top: 15px;
 }
 
 #listaCursos{
@@ -264,10 +270,14 @@ a{
 }
 
 .imgNoticiaPrincipal{
-    height: 50vh;
+    height: min-content;
     width: 60%;
     margin-right: auto;
     object-fit: cover;
+}
+
+#imagenMaraton{
+    height: 60vh;
 }
 
 .epigrafe{
@@ -348,6 +358,7 @@ a{
     width: 100%;
     display: none;
     height: min-content;
+    margin-top: 0px;
 }
 
 h1{
@@ -380,6 +391,10 @@ h4{
     width: 100%;
 }
 
+#imagenMaraton{
+    height: min-content;
+}
+
 #divTexto{
     width: 100%;
 }
@@ -395,6 +410,10 @@ h4{
 
 #otrasNoticias{
     display: block;
+}
+
+.vinculoNoticia{
+    width: 100%;
 }
 
 #noticiaMenor{
